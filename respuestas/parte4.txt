@@ -1,37 +1,37 @@
 TALLER 6 - RESPUESTAS PARTE 4
-Integrante A: ___________________________
-Integrante B: ___________________________
+Integrante A: Kadir González
+Integrante B: Kenneth Lau
 
 ──────────────────────────────────────────
 1. ¿Cuál es la diferencia entre add("valor") y add(1, "valor")?
 
 RESPUESTA:
-
+add("valor") agrega el elemento al final de la lista, mientras que add(1, "valor") inserta el elemento en el índice 1 y desplaza hacia la derecha los elementos que estaban desde esa posición en adelante.
 
 ──────────────────────────────────────────
 2. ¿Qué ocurre si intentas hacer ciudades.get(10) en una lista de 5 elementos?
 
 RESPUESTA:
-
+Lanza una excepción en tiempo de ejecución (IndexOutOfBoundsException), porque el índice 10 está fuera del rango válido de la lista (en una lista de 5 elementos los índices válidos van de 0 a 4)[cite: 1].
 
 ──────────────────────────────────────────
 3. ¿Por qué usamos ArrayList<Integer> y no ArrayList<int>?
 
 RESPUESTA:
-
+Porque las colecciones genéricas en Java trabajan con objetos (clases) y no con tipos primitivos como int; Integer es la clase envolvente (wrapper) que representa un valor entero como objeto.
 
 ──────────────────────────────────────────
 4. ¿Cuál es el orden de atención en una cola FIFO?
    ¿Cuál sería el orden en una pila LIFO con addFirst/removeFirst?
 
 RESPUESTA:
-
+En una cola FIFO (First In, First Out) el orden de atención es primero en entrar, primero en salir (se atiende primero al que llegó primero)[cite: 1]. Con addFirst y removeFirst en el mismo extremo (el frente), el último elemento en agregarse es el primero en quitarse, lo que corresponde a una pila LIFO (Last In, First Out)[cite: 1].
 
 ──────────────────────────────────────────
 5. ¿Cuándo preferirías usar LinkedList sobre ArrayList y viceversa?
 
 RESPUESTA:
-
+Preferiría ArrayList cuando necesito acceso rápido por índice (get) y recorridos frecuentes, ya que se apoya en un arreglo[cite: 1]. Preferiría LinkedList cuando necesito insertar o eliminar elementos con frecuencia al inicio o en extremos/posiciones sin depender de acceso por índice[cite: 1].
 
 ──────────────────────────────────────────
 MODIFICACIONES REALIZADAS:
