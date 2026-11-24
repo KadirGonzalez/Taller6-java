@@ -5,27 +5,29 @@ Integrante B: ___________________________
 ──────────────────────────────────────────
 1. ¿Cómo accedes al valor 88 (Luis en Español) usando índices?
 
-RESPUESTA:
+RESPUESTA: Se accede mediante calificaciones[1][1], porque Luis está en la fila 1 y Español en la columna 1.
 
 
 ──────────────────────────────────────────
 2. ¿Cuántos bucles for necesitas para recorrer todos los elementos de un arreglo 2D? ¿Por qué?
 
-RESPUESTA:
+RESPUESTA: Se necesitan dos bucles for: uno para recorrer las filas y otro para recorrer las columnas de cada fila.
 
 
 ──────────────────────────────────────────
 3. Si agregas un cuarto estudiante, ¿qué línea de código tendrías que cambiar?
 
-RESPUESTA:
+RESPUESTA: Se debe cambiar int filas = 3; por int filas = 4;. También se agrega el nombre del estudiante y sus calificaciones.
 
 
 ──────────────────────────────────────────
 4. ¿Qué significa String.format("%-12d", valor)? ¿Qué cambia si quitas el -?
 
-RESPUESTA:
+RESPUESTA: Significa que el número se muestra en un espacio de 12 caracteres, alineado a la izquierda. Si se quita el signo menos, el valor queda alineado a la derecha.
 
 
 ──────────────────────────────────────────
 MODIFICACIÓN REALIZADA (describe qué cambiaste y el nuevo promedio de columna):
-
+Se agregó un cuarto estudiante llamado Pedro con las calificaciones 78, 65 y 92. 
+También se cambió la cantidad de filas de 3 a 4. 
+El programa calculó correctamente su promedio de 78.33 y actualizó automáticamente los promedios de las materias.
